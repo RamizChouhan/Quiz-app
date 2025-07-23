@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-blue-500">
+    <div class="min-h-screen w-100% h-100vh flex justify-center items-center">
+      <div class="bg-white w-max  h-max rounded-2xl md:w-[20%] pl-4" id="box">
+        <h3 id="quebox" class="text-center font-bold text-2xl mt-5 ">1) This is the dummy question</h3>
+        <div class="w-100% p-5">
+            <input class="options" id="option1" type="radio" value="a"  name="option" >
+             <label for="option1" class="mr-5 ml-3  text-2xl">option1</label>
+        </div>
+
+          <div class="w-100% p-5">
+            <input class="options" id="option2" type="radio" value="b" name="option">
+             <label for="option2" class="mr-5 ml-3  text-2xl ">option2</label>
+        </div>
+
+          <div class="w-100% p-5">
+            
+            <input class="options" id="option3" type="radio" value="c" name="option">
+            <label for="option3" class="mr-5  ml-3  text-2xl">option3</label>
+        </div>
+
+          <div class="w-100% p-5">
+            
+            <input class="options" id="option4" type="radio" value="d" name="option">
+            <label for="option4" class="mr-5 ml-3  text-2xl">option4</label>
+        </div>
+        <div>
+            <button id="btn" onclick="submitQuiz()" class="w-20 h-8 bg-blue-500 rounded ml-24 md:ml-32 text-white active:bg-blue-800 mb-5">Submit</button>
+        </div>
+      </div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
